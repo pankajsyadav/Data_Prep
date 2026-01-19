@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF8">
+
+<script type="text/javascript" src="/framed/global.js"></script>
+<link rel="stylesheet" type="text/css" href="/framed/~/media/multimedia/interactives/2015/college_value_added_prod/colldbstyle.css">
+
+<link rel="stylesheet" type="text/css" href="/framed/~/media/multimedia/interactives/2015/college_value_added_prod/mobile_style_override.css"></head>
+<body>
+<!--START INTERACTIVE-->
+<div id="interactive-link" style="height:1px;width:100%;"></div>
+<!--Outer wrapper-->
+<div id="CDBWrap2"> 
+
+  <!--Inner wrapper-->
+  <div id="CDBWrap" class="clearfix" style="min-height:300px;">
+  	
+  	<!--VIEW 1-->
+  	<div id="cd-view1">
+      <div id="search-area" class="clearfix" style="position:absolute;top:7px;left:10px;min-width:200px;max-width:400px;width:65%;height:35px;z-index:25;visibility:hidden;">
+        <div style="width:auto;height:22px;z-index:25;float:left;margin-right:18px;">
+          <input type="text" id="table-filter" style="border-radius:0px;border:none;outline:none;padding:1px 2px 1px 6px;height:100%;width:150px;line-height:normal;" placeholder="Search for a school" />
+        </div>
+
+        <div class="menuGroup" style="float:left;z-index:25;">
+            <div style="display:inline-block;cursor:pointer;margin-top:10px;" id="select-two-year" class="buttonSelected">
+              <div style="width:12px;height:12px;border:1px solid #ffffff;float:left;background:#ffffff">
+                <div class="buttonFill" style="width:10px;height:10px;margin:1px"></div>
+              </div>
+              <p style="float:left;font-size:13px;margin-left:5px;margin-top:0px;color:#ffffff;">Two-year</p>
+              <div style="width:0px;height:0px;position:relative;clear:both;"></div>
+            </div>
+
+            <div style="display:inline-block;cursor:pointer;margin-top:10px;margin-left:12px;" id="select-four-year">
+              <div style="width:12px;height:12px;border:1px solid #ffffff;float:left;background:#ffffff">
+                <div class="buttonFill" style="width:10px;height:10px;margin:1px"></div>
+              </div>
+              <p style="float:left;font-size:13px;margin-left:5px;margin-top:0px;color:#ffffff;">Four-year</p>
+              <div style="width:0px;height:0px;position:relative;clear:both;"></div>
+            </div>
+        </div>
+      </div>
+
+      <div style="width:100%;height:100%;background-color:#20558a;position:absolute;top:-1px;left:0px;z-index:1;"></div>
+      
+      <table id="table-header" style="visibility:hidden;min-height:85px;">
+        <colgroup>
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+          <col />
+        </colgroup>
+        <tbody>
+          <tr class="data-row" style="background-color:#20558a;padding-top:5px;border:none;">
+            <td style="border:none;"></td>
+            <td style="border:none;"></td>
+            <td style="border:none"></td>
+            <td colspan="3" style="border-bottom:1px solid #ffffff;color:#ffffff;text-align:right">Value-added scores <span class="no-wrap-span">(100 = top score)</span></td>
+          </tr>
+          <tr class="data-row" id="data-row-header" style="padding-top:5px;border:none;">
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="cd-content">
+        <table style="width:100%;">
+          <tbody>
+          </tbody>
+        </table>
+
+      </div>
+  	</div>
+
+  	<!--VIEW 2-->
+    <!--<div id="slider">-->
+    	<div id="cd-view2" style="">
+        <div id="view2-header" style="width:100%;height:auto;min-height:70px;border-bottom:0px solid #cccccc;position:relative;clear:both;background:#20558a;" class="clearfix">
+          <div id="back21" style="width:auto;float:right;height:auto;border-radius:5px;margin:1.5% 2% 0px 1%;cursor:pointer;padding:3px 10px 3px 10px;border:1px solid #ffffff;">
+            <p style="pointer-events:none;font-size:13px;color:#ffffff">BACK</p>
+          </div>
+          
+          <div id="help-button" style="width:auto;float:right;height:auto;border-radius:5px;;margin:1.5% 0px 0px 1%;cursor:pointer;padding:3px 10px 3px 10px;border:1px solid #ffffff;">
+            <p style="pointer-events:none;font-size:13px;color:#ffffff">HELP</p>
+          </div>
+
+          <div class="clearfix" style="float:left;margin:1.5% 1% 0% 2%;width:75%;">
+            <p class="instnm" style="color:#ffffff; font-weight:bold;font-size:1.6em;margin-top:0px;"></p>
+            <p id="instloc" style="color:#ffffff; white-space:nowrap; font-size:15px; margin-top:0px;"></p>
+          </div>
+
+          <div id="help-box" style="width:100%; height:0px;">
+
+          </div>
+        </div>
+        <div class="cd-content">
+          <p style="font-size:13px;font-style:italic;margin:20px 15% 10px 15%;text-align:center">The "scores" presented alongside the metrics in this profile are centile ranks. They range from 1 to 100, with 100 indicating the highest centile, or top 1 percent of all 2- or 4-year colleges.</p>
+
+          <div id="at-a-glance" style="background-color:#ffffff;border-bottom:0px solid #dddddd;padding:0px;margin-top:15px;" class="clearfix">
+              <p style="font-size:1.25em;border:none;padding-bottom:0px;" class="va-title" >At a glance</p>
+              <table class="bubble-table">
+                <colgroup>
+                  <col style="width:50%;"/>
+                  <col style="width:50%;"/>
+                </colgroup>
+                <thead>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+          </div>
+          <div id="va-boxes" class="clearfix"></div>
+          <div id="q-boxes" class="clearfix" style="">
+            <div class="va-box" style="">
+              <p class="va-title" style="font-size:1.25em;font-weight:bold;">Detailed institutional quality measures</p>
+              <table id="quality-table" class="bubble-table">
+                <colgroup>
+                  <col style="width:50%;"/>
+                  <col style="width:50%;"/>
+                </colgroup>
+                <thead>
+                  <tr>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div style="width:40px;height:1px;border-bottom:1px solid #dddddd;margin-top:15px;margin-left:2%;"></div>
+          <p id="ln-model-caveat" style="font-size:13px;line-height:1.5em;color:#666666;margin:5px 2% 5px 2%;">*The models used to predict mid-career salary and occupational earnings power use log-transformed versions of these indicators. Calculating value-added from the "actual" and "predicted" values displayed above will not match the published value-added amount unless the calculation is run on log-transformed values.</p>
+        </div>
+    	</div>
+
+      <div id="cd-helpview" style="overflow-y:scroll">
+        <p class="help-section" style="margin-top:12px;">How value-added is calculated</p>      
+        
+        <div style="max-width:885px;margin-left:auto;margin-right:auto;position:relative;">
+          <img style="width:100%;" alt="Value-added calculation" />
+          <p class="help-txt">For each college with the required data, value-added equals the difference between actual economic outcomes and predicted outcomes, for the average alumni. It is determined by measured and unmeasured aspects of college quality (see below). Value-added scores range from 1 to 100, with 100 indicating the highest centile, or top 1 percent of 2- or 4-year colleges.</p> 
+        </div>
+
+         
+
+        <p id="help-close-button" style="cursor:pointer;position:absolute;right:35px;top:10px;min-height:15px;min-width:120px;padding:10px;background:#ffffff;text-align:center;border-radius:5px;border:1px solid #dddddd"><b>Close</b></p>
+
+        <!--help text-->
+        <p class="help-section">The three economic outcomes considered </p>  
+
+        <p class="help-var">Earnings </p>
+        <p class="help-txt">Mid-career earnings of students whose highest level of degree was earned at the college.</p>
+        <p class="help-src">PayScale</p>
+
+        <p class="help-var">Occupational earnings power</p>  
+        <p class="help-txt">The average salary of the college alumni’s occupations. Salary is calcuated by matching LinkedIn occuaptions to national average salary data for workers in similar occupations.</p> 
+        <p class="help-src">LinkedIn and the Bureau of Labor Statistics' Occupational Employment Statistics (May 2013)</p>
+
+        <p class="help-var">Loan repayment</p> 
+        <p class="help-txt">Rate of repayment on federal students loans within first three years of repayment. This is calculated by dividing the number of students making loan repayments (not being 270 days late for most students) between 2009 and 2014 by the number of students who borrowed from the federal government between 2009 and 2011.</p>  
+        <p class="help-src">U.S. Department of Education</p>
+
+        <p class="help-section">Aspects of college quality that determine value-added</p> 
+
+        <p class="help-var">Curriculum value</p> 
+        <p class="help-txt">The labor market value of the college’s mix of majors, as determined by the earnings of all U.S. graduates with degrees in a given major.</p>   
+        <p class="help-src">U.S. Census Bureau American Community Survey; the data were obtained from the University of Minnesota's Integrated Public Use Microdata Series (IPUMS).</p>
+
+        <p class="help-var">Share of graduates prepared to work in occupations requiring STEM knowledge</p>  
+        <p class="help-txt">The percentage of graduates who complete a degree in a field of study that prepares them for an occupation demanding high levels of science, technology, engineering, or math knowledge.</p> 
+        <p class="help-src">Analysis of data from O*NET and the U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Value of alumni skills</p> 
+        <p class="help-txt">The labor market value of the 25 most common skills listed on the LinkedIn resumes of alumni who attended the college.</p> 
+        <p class="help-src">Analysis of data from LinkedIn for alumni skills by college and from Burning Glass for value of skills (for more information, see: <a href="http://www.brookings.edu/research/interactives/2014/job-vacancies-and-stem-skills">"Still Searching: Job Vacancies and STEM Skills"</a>)</p>
+
+        <p class="help-var">Share of students that graduate in twice the normal time</p> 
+        <p class="help-txt">The percentage of enrolled students who graduate from the college in eight years for four-year programs and four years for two-year programs.</p>
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Retention or re-enrollment rate</p>  
+        <p class="help-txt">The share of students from the full-time and part-time adjusted fall 2012 cohorts still enrolled in fall 2013.</p> 
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Average aid per student provided by institution</p>  
+        <p class="help-txt">Financial aid funded by the college itself, rather than federal or other sources.</p>  
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Average salary of instructors</p>  
+        <p class="help-txt">The average compensation of all instructional staff at the college.</p>  
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">X-factor</p> 
+        <p class="help-txt">The unmeasurable qualities or errors in the prediction model that account for the difference between total value-added and the contributions to value-added from the above (measurable) qualities. It can be thought of as intangible school factors that affect student outcomes.</p>  
+        <p class="help-src">Derived from analysis (see appendix section of report)</p>
+
+        <p class="help-section">Student characteristics that determine predicted outcomes</p>  
+
+        <p class="help-var">Enrollment</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Percent of freshman from same state</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Foreign-born student share of enrollment</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Asian student share of enrollment</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">White student share of enrollment</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Average age of students</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Percent attending part time</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Female share of students</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Percent of students receiving no aid</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Percent of students receiving federal loans</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Pell grant aid per student</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Standardized math scores</p>
+        <p class="help-txt">ACT and SAT scores on the quantitative sections, standardized to have mean zero and a standard deviation of one, and weighted by number of students taking each exam. For schools with no scores, expected scores were imputed based on student characteristics.</p>  
+        <p class="help-src">U.S. Department of Education's IPEDS database and author calculations</p>
+
+        <p class="help-var">LinkedIn salary bias</p>   
+        <p class="help-src">Analysis of data from LinkedIn</p> 
+
+        <p class="help-section">College characteristics that determine predicted outcomes</p>    
+        <p class="help-var">Modal degree is one year</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Modal degree is bachelor's</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Modal degree is post-bachelor's</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Online college (all students enrolled only in distance learning)</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Carnegie classification</p>  
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-var">Percentage distribution of degrees granted by level</p>    
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+
+        <p class="help-section">College geographic characteristics that determine predicted outcomes</p>   
+        <p class="help-var">Local price index 2012</p> 
+        <p class="help-txt">The cost of living relative to other metropolitan areas.</p>
+        <p class="help-src">Bureau of Economic Analysis</p>
+
+        <p class="help-var">State location</p>   
+        <p class="help-src">U.S. Department of Education's IPEDS database</p>
+      </div>
+
+  <!--End inner wrapper-->
+  </div>
+<!--End outer wrapper-->
+</div> 
+
+
+<!--END INTERACTIVE-->
+
+<script src="/framed/~/media/multimedia/interactives/2015/college_value_added_prod/d3min.js"></script>
+<script src="/framed/~/media/multimedia/interactives/2015/college_value_added_prod/colldb.js"></script></body></html>
